@@ -32,7 +32,7 @@
 * Run `nodemon app.js` to start your node server.
 * **TEST** this project using **`POSTMAN`**. Once you finish the project, you'll be tasked to set up `cors` properly for use with a client.
 
-### Step 1: Implement your User Schema in `api/models/userModels.js`
+<!-- ### Step 1: Implement your User Schema in `api/models/userModels.js`
 
 * The required fields are `username` (must be unique and required) and `password`.
 
@@ -41,7 +41,7 @@
   "username": "Tony@stark.com",
   "password": "pepperpots"
 }
-```
+``` -->
 
 ### Step 2: Implement your Create User Functionality.
 
