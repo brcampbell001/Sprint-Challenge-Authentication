@@ -51,7 +51,7 @@ const compareUserPW = (req, res, next) => {
       })
       .catch(err => {
         sendUserError({ message: 'CompareUserPW Catch Error' });
-      }
+      })
     })
 };
 
