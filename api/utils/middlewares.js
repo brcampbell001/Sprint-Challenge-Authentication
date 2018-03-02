@@ -31,7 +31,7 @@ const encryptUserPW = (req, res, next) => {
     sendUserError('Please input a password', res);
     return;
   }
-  bcrypt.hash(password, SaltRounds).then((pass) => {
+  bcrypt.hash(password, SaltRounds).then(pass => {
     req.password = pass;
     next();
   })
