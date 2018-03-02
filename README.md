@@ -43,22 +43,22 @@
 }
 ``` -->
 
-### Step 2: Implement your Create User Functionality.
+<!-- ### Step 2: Implement your Create User Functionality.
 
 * Start in `api/utils/middlewares.js`.
 * Follow the steps provided in the `encryptPW` function. Once done there, head back here for further instructions.
 * Check out `api/controllers/user.js`. There are some things to implement there.
 * Once you have your controller implemented, head over to your `api/routes/routes.js` file and notice we have a controller missing. Go ahead and pass in this controller.
-* **TEST** your `/api/user` _POST_ to ensure you can create a user with an encrypted password.
+* **TEST** your `/api/user` _POST_ to ensure you can create a user with an encrypted password. -->
 
-### Step 3: Users Gotta Login!
+<!-- ### Step 3: Users Gotta Login!
 
 * This step will be real fun.
 * Head over to your `comparePW` function in `api/utils/middlwares.js` and follow the instructions for the that piece of login `middleware`.
 * Once you have compared passwords with `bcrypt`, you'll need to `**ENSURE THAT**` you have set the `req.username` as the user's `username`. Without it, your `login controller` won't know what to do and you'll receive this error:
 
 ```
- error: 'no username check your comparePW middleware'
+ error: 'no username check your comparePW middleware' -->
 ```
 
 ### Step 4: _GET_ your Jokes!
